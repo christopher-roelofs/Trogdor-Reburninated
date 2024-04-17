@@ -900,7 +900,7 @@ int main(int argv, char** args) {
 							renderText(text_4_paused_2, font_serif_white_6);
 							renderText(text_4_paused_3, font_serif_white_6);
 						}
-						if (keyHeld(INPUT_A) && keyPressed(INPUT_SELECT)) {
+						if (keyPressed(INPUT_SELECT)) {
 							g_sceneState = 3;
 							lastMusicPlayed = -1;
 							GM.saveGameState_autosave();
@@ -1000,7 +1000,7 @@ int main(int argv, char** args) {
 							renderText(text_4_paused_2, font_serif_white_6);
 							renderText(text_4_paused_3, font_serif_white_6);
 						}
-						if (keyHeld(INPUT_A) && keyPressed(INPUT_SELECT)) {
+						if (keyPressed(INPUT_SELECT)) {
 							g_sceneState = 3;
 							lastMusicPlayed = -1;
 							GM.saveGameState_autosave();
