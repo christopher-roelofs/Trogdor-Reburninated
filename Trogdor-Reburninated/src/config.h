@@ -157,8 +157,8 @@ constexpr auto DEFAULT_HEIGHT = 240;
 constexpr auto DEFAULT_WIDTH = 320;
 constexpr auto DEFAULT_HEIGHT = 240;
 #else
-constexpr auto DEFAULT_WIDTH = 640;
-constexpr auto DEFAULT_HEIGHT = 480;
+#define DEFAULT_WIDTH  max(DM.w, DM.h)
+#define DEFAULT_HEIGHT min(DM.w, DM.h)
 #endif
 
 extern void saveGameState_settings();
