@@ -91,7 +91,7 @@ void InitializeController() {
 #else
 	for (i = 0; i < SDL_NumJoysticks(); i++) {
 		if (SDL_IsGameController(i)) {
-			controller = SDL_GameControllerOpen(i);
+			//controller = SDL_GameControllerOpen(i);
 			break;
 		}
 	}

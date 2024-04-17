@@ -110,7 +110,8 @@ const string rootDir = "/Trogdor-RB/";
 #elif defined(THREEDS)
 const string rootDir = "sdmc:/3ds/Trogdor-RB/";
 #elif defined(LINUX)
-const string rootDir = string(getenv("HOME")) + "/.trogdorrb/";
+//const string rootDir = string(getenv("HOME")) + "/.trogdorrb/";
+const string rootDir = "";
 #else
 const string rootDir = "";
 #endif
