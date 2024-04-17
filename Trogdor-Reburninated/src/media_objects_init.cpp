@@ -396,7 +396,7 @@ void InitializeText_PauseScreen() {
 #else
 	SET_TEXT("press 'START' to resume", text_4_paused_2, font_serif_white_6,
 		OBJ_TO_MID_SCREEN_X(gameHiResWidth, text_4_paused_2), 145 * gameHiResMult);
-	SET_TEXT("press 'A+SELECT' to quit", text_4_paused_3, font_serif_white_6,
+	SET_TEXT("press 'SELECT' to quit", text_4_paused_3, font_serif_white_6,
 		OBJ_TO_MID_SCREEN_X(gameHiResWidth, text_4_paused_3), 160 * gameHiResMult);
 #endif
 }
